@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: arial;
+    background: url("./img/Melhores-Skates.jpg");
+    background-size: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0px 20px;
+}
+
+ a:hover {
+     background-color: rgba(255,255,255,.3); 
+}
+
+nav {
+    background-color: black;
+    height: 50px;
+   
+}
+
+#ul-principal {
+
+    background-color: rgb(21, 170, 28);
+    width: 90%;
+    margin: auto;
+}
+
+.li-p {
+    line-height: 50px;
+    float: left;
+}
+
+ul li ul li {
+    background-color: black;
+}
+
+.ul-noticias, .ul-entret, .ul-fale-c {
+
+    display: none;
+}
